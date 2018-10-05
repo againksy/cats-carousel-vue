@@ -60,7 +60,7 @@
   background-color: #83B4AE;
   font-size: 3em;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .carousel {
     width: 1130px;
   }
