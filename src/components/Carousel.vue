@@ -35,10 +35,10 @@ export default {
   },
   methods: {
     moveCarousel (direction) {
-      if (direction === 1 && !this.atEndOfList) {
+      if (direction === 1) {
         const first = this.slides.shift()
         this.slides = this.slides.concat(first)
-      } else if (direction === -1 && !this.atHeadOfList) {
+      } else if (direction === -1) {
         const last = this.slides.pop()
         this.slides = [last].concat(this.slides)
       }
